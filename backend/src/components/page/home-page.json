@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_page_home_pages",
+  "info": {
+    "displayName": "HomePage",
+    "icon": "house",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "banner_description": {
+      "type": "text",
+      "required": true,
+      "unique": true
+    },
+    "banner_graphics": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "slogan": {
+      "type": "text",
+      "required": true,
+      "unique": true
+    },
+    "small_slogan": {
+      "type": "text",
+      "required": true,
+      "unique": true
+    },
+    "banner_title": {
+      "type": "blocks",
+      "required": true
+    }
+  }
+}

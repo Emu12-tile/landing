@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "securities",
+  "info": {
+    "singularName": "security",
+    "pluralName": "securities",
+    "displayName": "security",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
